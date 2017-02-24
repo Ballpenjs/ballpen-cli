@@ -1,0 +1,38 @@
+{
+  "name": "ballpen-cli",
+  "version": "0.1.0",
+  "description": "Simple CLI for scaffolding Ballpen.js projects.",
+  "main": "index.js",
+  "bin": {
+    "ballpen": "bin/ballpen",
+    "ballpen-init": "bin/ballpen-init",
+    "ballpen-list": "bin/ballpen-list"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ballpenjs/ballpen-cli.git"
+  },
+  "keywords": [
+    "ballpen",
+    "cli",
+    "spa"
+  ],
+  "author": "YHSPY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ballpenjs/ballpen-cli/issues"
+  },
+  "homepage": "https://github.com/Ballpenjs/ballpen-cli#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "download-git-repo": "^0.2.1",
+    "inquirer": "^3.0.4",
+    "ora": "^1.1.0",
+    "tildify": "^1.2.0",
+    "user-home": "^2.0.0"
+  }
+}
